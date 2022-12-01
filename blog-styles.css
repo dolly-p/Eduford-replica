@@ -146,12 +146,19 @@
     border: 1px solid white;
     border-radius: 3px;
 }
+input[placeholder]{
+    padding-left: .5rem;
+}
 #yourName{
     margin-top: 1rem;
 }
 .form textarea{
     width: 100%;
     background-color: rgb(216, 200, 200);
+}
+textarea[placeholder]{
+    padding-top: .8rem;
+    padding-left: .5rem;
 }
 #btn-comment{
     margin-top: 1.5rem;

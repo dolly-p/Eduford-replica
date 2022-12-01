@@ -120,9 +120,16 @@
     width: 100%;
     margin-top: 1.5rem;
 }
+input[placeholder]{
+    padding-left: .5rem;
+}
 .content-form textarea{
     margin-top: 1.5rem;
     width: 100%;
+}
+textarea[placeholder]{
+    padding-top: .8rem;
+    padding-left: .5rem;
 }
 .ct{
     display: flex;
